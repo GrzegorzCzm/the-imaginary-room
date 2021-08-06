@@ -1,0 +1,53 @@
+.my_stories {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.my_stories_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 70px;
+}
+
+.draft_text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.my_stories_list {
+    display: flex;
+    border: solid 1px black;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.my_stories_story {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 2px black;
+    margin: 10px;
+    width: 220px;
+}
+
+.my_stories_story_name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.my_stories_button {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 3px;
+    transition-duration: 0.4s;
+}
+
+.my_stories_button:hover {
+    background-color: rgb(135, 135, 135);
+}

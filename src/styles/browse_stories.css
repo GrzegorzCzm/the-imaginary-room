@@ -1,0 +1,162 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.browse_stories{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.browse_stories_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 70px;
+}
+
+.story_filter {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.filter_element {
+    display: flex;
+}
+
+.filter_element select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('../images/Icon-Triangle.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right center;
+    border: none;
+    font-size:medium;
+}
+
+.sort_by_select {
+    width: 150px;
+}
+
+.date_select {
+    width: 130px;
+}
+
+.genre_select {
+    width: 170px;
+}
+
+.story_list {
+    display: grid;
+    column-gap: 5px;
+    row-gap: 30px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid black;
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+}
+
+.story_title {
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.story_header {
+    display: flex;
+    margin: 10px;
+    align-items: baseline;
+}
+
+.star_icon {
+    width: 18px;
+    height: 18px;
+}
+
+.eye_icon {
+    width: 21px;
+    height: 13px;
+}
+
+.comment_icon {
+    width: 20px;
+    height: 13px;
+}
+
+.info_header {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info_header p {
+    margin: 0;
+    font-size: small;
+}
+
+.publish_date {
+    margin-left: 140px;
+    font-weight: bold;
+    color: black;
+}
+
+.story_genres {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.story_genre {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 110px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.story_summary {
+    text-align: center;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.story_read {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.story_read:hover {
+    background-color: rgb(135, 135, 135);
+}

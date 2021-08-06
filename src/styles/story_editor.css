@@ -1,0 +1,246 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.story_editor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 700px;
+    padding-top: 50px;
+}
+
+.main_node {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.node_saved {
+    background-color: rgb(191, 191, 191);
+}
+
+.node_unsaved {
+    background-color: white;
+}
+
+.inner_node {
+    border: solid 3px black;
+    padding-bottom: 20px;
+}
+
+.node_id {
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 420px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+    font-style: italic;
+    border-left: solid 3px black;
+    border-top: solid 3px black;
+    border-right: solid 3px black;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.select_node {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('../images/Icon-Triangle.png');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 235px center;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    border-top: none;
+    font-size:medium;
+    font-weight: bold;
+    text-align: center;
+    width: 260px;
+    height: 30px;
+}
+
+.node_header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.node_header_button {
+    background-color: black;
+    width: 120px;
+    height: 30px;
+    border:none;
+    transition-duration: 0.4s;
+}
+
+.node_header_button:hover {
+    background-color: rgb(135, 135, 135);
+}
+
+.delete_button {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.submit_button {
+    background-image: url('../images/Icon-Save.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.title_textbox {
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.next_textbox {
+    width: 50px;
+    text-align: center;
+    font-size: medium;
+    margin-left: 2px;
+}
+
+.next_button {
+    background-color: black;
+    border:none;
+    width: 100%;
+    height: 30px;
+    background-image: url('../images/Icon-Arrow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    transition-duration: 0.4s;
+}
+
+.next_button:hover {
+    background-color: rgb(135, 135, 135);
+}
+
+.desc_textbox {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    font-size: larger;
+    resize: none;
+}
+
+.dial_textbox {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: larger;
+    resize: none;
+}
+
+.speaker_textbox {
+    text-align: center;
+    font-size: larger;
+}
+
+.add_branch_button {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    height: 30px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+.node_branch {
+    border: solid 3px black;
+    margin: 10px;
+}
+
+.branch_header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.branch_header_text {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.text_switch {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text_checked {
+    opacity: 1;
+    cursor: pointer;
+    border: solid 1px black;
+    width: 100px;
+}
+
+.text_unchecked {
+    opacity: 0.5;
+    cursor: pointer;
+    border: solid 1px black;
+    width: 100px;
+}
+
+.choice_textbox {
+    width: 300px;
+    text-align: center;
+    font-size: larger;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.dial_branch_def_unchecked {
+    opacity: 0.5;
+    cursor: pointer;
+    border: solid 1px black;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-top: 5px;
+}
+
+.dial_branch_def_checked {
+    opacity: 1;
+    cursor: pointer;
+    border: solid 1px black;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-top: 5px;
+}
+
+.preview_story_button {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    height: 30px;
+    line-height: 30px;
+    justify-content: center;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.preview_story_button:hover {
+    background-color: rgb(135, 135, 135);
+}

@@ -1,0 +1,105 @@
+.create_story {
+    margin-left: 425px;
+    margin-right: 425px;
+    height: 1200px;
+}
+
+.create_story_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 70px;
+}
+
+.create_story p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.create_story_form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.genre_button {
+    margin: 10px;
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.genre_button:hover {
+    background-color: rgb(135, 135, 135);
+}
+
+.picked_genres {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 1px black;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 30px;
+    height: 50px;
+    line-height: 25px;
+}
+
+.available_genres {
+    border: solid 1px black;
+    margin-bottom: 30px;
+}
+
+.cs_story_name input {
+    width: 370px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cs_story_summary textarea {
+    width: 500px;
+    height: 200px;
+    resize: none;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.language_list select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('../images/Icon-Triangle.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right center;
+    border: none;
+    font-size:medium;
+    margin-bottom: 30px;
+}
+
+.create_story_button {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    height: 40px;
+    line-height: 20px;
+}
+
+.create_story_button:hover {
+    background-color: rgb(135, 135, 135);
+}

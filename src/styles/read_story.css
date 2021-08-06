@@ -1,0 +1,161 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.read_story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.center_content {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.description {
+    font-size: 30px;
+    font-weight: bold;
+    border: solid 2px black;
+    width: 1200px;
+    height: 500px;
+}
+
+.dialogue {
+    font-size: 30px;
+    font-weight: bold;
+    border: solid 2px black;
+    width: 900px;
+    height: 400px;
+}
+
+.dialogue_inner {
+    height: 350px;
+}
+
+.dialogue_speaker {
+    height: 50px;
+    border-bottom: solid 2px black;
+}
+
+.value_input {
+    font-size: 30px;
+    font-weight: bold;
+    border: solid 2px black;
+    width: 500px;
+    height: 400px;
+}
+
+.input_textarea {
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input_button {
+    color:white;
+    font-weight: bold;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin: 20px 200px;
+    height: 30px;
+}
+
+.input_button:hover {
+    background-color: rgb(135, 135, 135);
+}
+
+.choices {
+    font-weight: bold;
+    border: solid 2px black;
+    width: 900px;
+    height: 400px;
+}
+
+.choice_text {
+    font-size: 30px;
+    height: 100px;
+}
+
+.choice_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.choice_option {
+    height: 40px;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.info {
+    background-color: white;
+    opacity: 1;
+}
+
+.progress {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+.selected_info {
+    opacity: 0.5;
+}
+
+.choice_option:hover {
+    background-color: rgb(135, 135, 135);
+}
+
+
+.game_over_button {
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin: 20px 500px;
+    height: 50px;
+}
+
+.game_over_button:hover {
+    background-color: rgb(135, 135, 135);
+}
+
+.enter_input_button {
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    height: 50px;
+    margin: 20px 150px;
+}
+
+.enter_input_button:hover {
+    background-color: rgb(135, 135, 135);
+}

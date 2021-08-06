@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+}
+
+.main_node {
+    position: relative;
+    border-style: solid;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aqua;
+}
+
+.dial_branch {
+    border-style: solid;
+    border-color: red;
+}
+
+.top_right {
+    position: absolute;
+    left: 1000px;
+    top: 1%;
+    width: 32px;
+    height: 32px;
+    background-image: url("./images/icon_bin.png");
+    background-size: 27px 27px;
+}
+
+.top_left {
+    position: absolute;
+    right: 95%;
+    top: 1%;
+    border: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.next_button {
+    width: 50%;
+}
+
+.select_type {
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: blue;
+}
+
+.select_type select {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.choices .info {
+    color: red;
+}
+
+.choices .selected_info {
+    color: purple;
+}
+
+.choices .progress {
+    color: yellow;
+}

@@ -1,0 +1,65 @@
+.home-page {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.panels {
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    grid-template-areas:
+    "box1 box1 box1 box1 box1 box1"
+    "box2 box2 box3 box3 box4 box4"
+    "box2 box2 box3 box3 box4 box4"
+    "box5 box5 box5 box6 box6 box6";
+}
+
+.panel {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.top-panel {
+    grid-area: box1;
+}
+
+.middle-panel-1 {
+    grid-area: box2;
+}
+
+.middle-panel-2 {
+    grid-area: box3;
+}
+
+.middle-panel-3 {
+    grid-area: box4;
+}
+
+.bottom-panel-1 {
+    grid-area: box5;
+}
+
+.bottom-panel-2 {
+    grid-area: box6;
+}
+
+.panel-button {
+    color:white;
+    font-weight: bold;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin: 7vh;
+    padding: 2vh;
+}
+
+.panel-button:hover {
+    background-color: rgb(135, 135, 135);
+}
