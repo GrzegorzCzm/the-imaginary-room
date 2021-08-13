@@ -1,4 +1,4 @@
-// It will be good idea to keep all services in one folder together. Then reusing already written code will be easier.
+/* [G.Cz]:  It will be good idea to keep all services in one folder together. Then reusing already written code will be easier. */
 
 import axios from "axios";
 
