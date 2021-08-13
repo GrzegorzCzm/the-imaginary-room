@@ -16,7 +16,7 @@ const createNewStory = async (storyDetails, userToken) => {
     },
   };
   try {
-    /* If you will use axios instance then you will not need to put baseUrl and config every time and have e.g. some common error handling */
+    /* [G.Cz]:  If you will use axios instance then you will not need to put baseUrl and config every time and have e.g. some common error handling */
     const response = await axios.post(baseUrl, storyDetails, config);
     return response.data;
   } catch (err) {

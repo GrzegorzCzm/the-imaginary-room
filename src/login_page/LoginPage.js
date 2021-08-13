@@ -16,7 +16,7 @@ const LoginPage = ({ onLogin }) => {
   const handleLogin = async (event) => {
     event.preventDefault();
     try {
-      /* redux + some middleware for async actions like thunk should be used here */
+      /* [G.Cz]:  redux + some middleware for async actions like thunk should be used here */
       const userInfo = await loginService.login({
         user_name: userName,
         password: password,

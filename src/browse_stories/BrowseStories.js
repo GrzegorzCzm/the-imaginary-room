@@ -14,7 +14,7 @@ const BrowseStories = () => {
     const [genreValue, setGenreValue] = useState("ALL");*/
 
   useEffect(() => {
-    /* for this you should use react + e.g. thunk and keep this in redux. Now everytime when I open this view I am fetching stories one more time */
+    /* [G.Cz]:  for this you should use react + e.g. thunk and keep this in redux. Now everytime when I open this view I am fetching stories one more time */
     storyService.getAllStories().then((allStories) => setStories(allStories));
   }, []);
 
@@ -47,7 +47,7 @@ const BrowseStories = () => {
         <div className="genre filter_element">
           <p className="genre_text">GENRE: </p>
           <select className="genre_select">
-            {/* I would prefer to define some array with those genres and use array.map to show them as na options. Same for dates and sorting above*/}
+            {/* [G.Cz]:  I would prefer to define some array with those genres and use array.map to show them as na options. Same for dates and sorting above*/}
             <option>BIOGRAPHY</option>
             <option>CHILDREN'S</option>
             <option>COMEDY</option>
@@ -71,7 +71,7 @@ const BrowseStories = () => {
             <div className="story_header">
               <div className="info_header info_rating">
                 <img className="star_icon" src={StarIcon} alt="star" />
-                <p>8.2/10</p> {/* :D */}
+                <p>8.2/10</p> {/* [G.Cz]:  :D */}
               </div>
               <div className="info_header info_view">
                 <img className="eye_icon" src={EyeIcon} alt="eye" />

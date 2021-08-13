@@ -1,30 +1,30 @@
-/* Sorry that in each file where I put some comment styling was changed. But please focus only on comments there. */
+/* [G.Cz]:  Sorry that in each file where I put some comment styling was changed. But please focus only on comments there. */
 
-/* I see that your project structure is component based. So you have component directory and service + redux under given compoenent.
+/* [G.Cz]:  I see that your project structure is component based. So you have component directory and service + redux under given compoenent.
  * It is not so common when working on react app.
  * Those one are more common and easy to mantain:
  * https://www.taniarascia.com/react-architecture-directory-structure/
  * https://medium.com/swlh/demystifying-the-folder-structure-of-a-react-app-c60b29d90836
  */
 
-/* TypeScript will help you a lot. Now applicaton crash in many places becasuse of some problems with undefined. E.g.
+/* [G.Cz]:  TypeScript will help you a lot. Now applicaton crash in many places becasuse of some problems with undefined. E.g.
  * TypeError: Cannot read property 'type' of undefined
  */
 
-/*
+/* [G.Cz]:
  * Keeping project under some version control system is must have :)
  */
 
-/* For directory names it is more common in js world use PascalCase or camelCase
+/* [G.Cz]:  For directory names it is more common in js world use PascalCase or camelCase
 
-/* Where are the tests? */
+/* [G.Cz]:  Where are the tests? */
 
-/* You could use some components library then you will safe many time and UI will be much better. Most common are:
+/* [G.Cz]:  You could use some components library then you will safe many time and UI will be much better. Most common are:
  * - metarial UI
  * - ant design
  */
 
-/*
+/* [G.Cz]:
  * Components are quite good splited!
  * JSX is nicely used
  */
@@ -141,7 +141,7 @@ function App() {
           <Route path="/read_story/:id">
             <ReadStory />
           </Route>
-          {/* E.g. here you should check if user is logged in. Common solution for this is PrivateRoute. E.g.
+          {/* [G.Cz]:  E.g. here you should check if user is logged in. Common solution for this is PrivateRoute. E.g.
            * https://medium.com/@thanhbinh.tran93/private-route-public-route-and-restricted-route-with-react-router-d50b27c15f5e
            * https://dev.to/ibrahimawadhamid/how-to-create-a-private-route-in-react-route-guard-example-for-authenticated-users-only-kin
            */}

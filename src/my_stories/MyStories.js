@@ -11,7 +11,7 @@ const getStoryDetails = async (userToken) => {
   const storyDetails = Promise.all(
     storyIds.map(async (s) => {
       //First I did this without Promise.all but then the resulting storyDetails array was an array of promises. Promise.all waits for all the promises inside of it to be resolved, then returns a single promise which resolves to an array of the results of the input promises.
-      /* Promise.all is a good solution. But the better one will be some well defined endpoint on backend
+      /* [G.Cz]:  Promise.all is a good solution. But the better one will be some well defined endpoint on backend
        *  which will accept storiesId list or even better userId and return his stories
        */
       const story = await storyService.getStory(s);
@@ -31,12 +31,12 @@ const MyStories = () => {
   const userToken = useSelector((state) => state.userToken);
 
   useEffect(() => {
-    /* for this you should use react + e.g. thunk and keep this in redux. Now everytime when I open this view I am fetching my stories one more time */
+    /* [G.Cz]:  for this you should use react + e.g. thunk and keep this in redux. Now everytime when I open this view I am fetching my stories one more time */
     getStoryDetails(userToken).then((details) => {
       setStoryDetails(details);
     });
   }, []); //We cannot make components async. So I couldn't use await to get the story details. Instead, I used then().
-  /* Your above coment says loudly that something is not fine with current approach for fetching data */
+  /* [G.Cz]:  Your above coment says loudly that something is not fine with current approach for fetching data */
 
   const draftStories = storyDetails.filter((s) => s.status === "draft");
   const publishedStories = storyDetails.filter((s) => s.status === "published");

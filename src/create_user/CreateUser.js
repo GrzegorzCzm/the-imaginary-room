@@ -20,7 +20,7 @@ const CreateUser = () => {
       stories: [],
     };
 
-    /* Some linter will help you a lot with cleaner code. E.g. below line generate warning like:
+    /* [G.Cz]:  Some linter will help you a lot with cleaner code. E.g. below line generate warning like:
      * 'registeredUser' is declared but its value is never read
      */
     const registeredUser = await userService.createNewUser(newUser);

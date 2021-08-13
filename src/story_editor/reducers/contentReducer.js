@@ -1,4 +1,4 @@
-/* It will be good to have some initial state, and clear separation between actions (plain objects) and reducers. 
+/* [G.Cz]:  It will be good to have some initial state, and clear separation between actions (plain objects) and reducers. 
 * E.g. for reducers https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers#creating-the-root-reducer 
 * E.g. for actions  https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow#actions
 

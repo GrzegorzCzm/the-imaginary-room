@@ -18,7 +18,7 @@ function CreateStory() {
     storyService.getStory(storyId).then((story) => {
       dispatch(setContentAction(story.story_content));
     });
-    /* Some linter will help you a lot with cleaner code. E.g. below line generate warning like:
+    /* [G.Cz]:  Some linter will help you a lot with cleaner code. E.g. below line generate warning like:
      * React Hook useEffect has a missing dependency: 'storyId'.
      * Either include it or remove the dependency array.eslintreact-hooks/exhaustive-deps
      */
